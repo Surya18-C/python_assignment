@@ -15,6 +15,6 @@ def average():
 
     avg = total/len(student)
 
-    print("Average : ",avg)
+    return avg
 
 
