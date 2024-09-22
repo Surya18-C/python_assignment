@@ -12,5 +12,5 @@ def mutation():
     new_str = ''.join(lis)
 
     # Print the modified string
-    print(new_str)
+    return new_str
 
