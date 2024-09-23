@@ -1,4 +1,4 @@
-
+#Finding the total average
 def avg():
     students = [
         {"ID": 1, "Name": "Alice", "Class": 10, "Marks": 85},
