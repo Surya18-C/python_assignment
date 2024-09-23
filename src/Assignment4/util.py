@@ -1,4 +1,6 @@
 
+#String Formatting
+
 def split_remove_duplicates(str,n):
 
     result=[]
@@ -6,7 +8,9 @@ def split_remove_duplicates(str,n):
 
         split_str=str[i:i+n]
 
-        result.append(split_str)
+        l=''.join(sorted(set(split_str)))
+
+        result.append(l)
 
     return result
 
