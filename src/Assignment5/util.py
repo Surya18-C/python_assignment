@@ -1,3 +1,5 @@
+
+#Floor, Ceil and Rint
 def str_format(n):
     res = []
     for i in range(1, n + 1):
